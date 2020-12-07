@@ -1,10 +1,6 @@
 const formatString = function (string) {
-  let stringLength = string.split('');
-  let stringNumber = Number(stringLength.length);
-  if (stringNumber > 40) {
-    stringLength.length = 40;
-    let stringFormating = stringLength.join('');
-    console.log(stringFormating + '...');
+  if (string.length > 40) {
+    console.log(string.slice(0, 40) + '...');
   } else {
     console.log(string);
   }
