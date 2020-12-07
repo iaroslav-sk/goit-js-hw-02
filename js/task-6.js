@@ -27,4 +27,4 @@ const add = function () {
   return total;
 };
 
-console.log(`Общая сумма введённых чисел: ${add(numbers)}.`);
+console.log(`Общая сумма введённых чисел: ${add()}.`);
